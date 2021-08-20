@@ -52,7 +52,18 @@ We offer FCNs and MVSS-Nets trained on CASIAv2 and DEFACTO_84k, respectively. Pl
 + [Google drive](https:/drive.google.com/drive/folders/1CztGkd91xF1QqEXuc2n8rVDTBJ7X695U?usp=sharing)
 
 
-The performance of these models for image-level manipulation detection (metric: image-level F1) is as follows. More details are reported in the [paper](https://arxiv.org/abs/2104.06832).
+The performance of these models for image-level manipulation detection (metric: AUC and image-level F1) is as follows. More details are reported in the [paper](https://arxiv.org/abs/2104.06832).
+
+#####AUC
+|   Model  | Training data | CASIAv1plus | Columbia |  COVER | DEFACTO-12k |
+|:--------:|:-------------:|:-------:|:--------:|:------:|:-----------:|
+| MVSS_Net | CASIAv2       | 0.932   | 0.980    | 0.731  | 0.573       |
+| MVSS_Net | DEFACTO-84k   | 0.771   | 0.563    | 0.525  | 0.886      |
+| FCN      | CASIAv2       | 0.769   | 0.762    | 0.541  | 0.551       |
+| FCN      | DEFACTO-84k   | 0.629   | 0.535    | 0.543  | 0.840       |
+
+
+#####Image-level F1 (threshold=0.5)
 
 |   Model  | Training data | CASIAv1plus | Columbia |  COVER | DEFACTO-12k |
 |:--------:|:-------------:|:-------:|:--------:|:------:|:-----------:|
