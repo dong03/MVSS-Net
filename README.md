@@ -49,12 +49,12 @@ img_path mask_path label
 
 We offer FCNs and MVSS-Nets trained on CASIAv2 and DEFACTO_84k, respectively. Please download the models and place them in the [ckpt](ckpt) directory:
 + [百度网盘](https://pan.baidu.com/s/1qbBulvsJ9FReUlng5zDYPg) (提取码：mvss)
-+ [Google drive](https:/drive.google.com/drive/folders/1CztGkd91xF1QqEXuc2n8rVDTBJ7X695U?usp=sharing)
++ [Google drive](https://drive.google.com/drive/folders/1CztGkd91xF1QqEXuc2n8rVDTBJ7X695U?usp=sharing)
 
 
 The performance of these models for image-level manipulation detection (metric: AUC and image-level F1) is as follows. More details are reported in the [paper](https://arxiv.org/abs/2104.06832).
 
-#####AUC
+##### Performance metric: AUC
 |   Model  | Training data | CASIAv1plus | Columbia |  COVER | DEFACTO-12k |
 |:--------:|:-------------:|:-------:|:--------:|:------:|:-----------:|
 | MVSS_Net | CASIAv2       | 0.932   | 0.980    | 0.731  | 0.573       |
@@ -63,7 +63,7 @@ The performance of these models for image-level manipulation detection (metric: 
 | FCN      | DEFACTO-84k   | 0.629   | 0.535    | 0.543  | 0.840       |
 
 
-#####Image-level F1 (threshold=0.5)
+##### Performance metric: Image-level F1 (threshold=0.5)
 
 |   Model  | Training data | CASIAv1plus | Columbia |  COVER | DEFACTO-12k |
 |:--------:|:-------------:|:-------:|:--------:|:------:|:-----------:|
