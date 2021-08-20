@@ -56,10 +56,10 @@ The performance of these models for image-level manipulation detection (metric: 
 
 |   Model  | Training data | CASIAv1plus | Columbia |  COVER | DEFACTO-12k |
 |:--------:|:-------------:|:-------:|:--------:|:------:|:-----------:|
-| MVSS_Net | CASIAv2       | 0.752   | 0.802    | 0.244  | 0.404       |
-| MVSS_Net | DEFACTO-84k   | 0.363   | 0.353    | 0.360  | 0.799       |
-| FCN      | CASIAv2       | 0.775   | 0.481    | 0.180  | 0.458       |
-| FCN      | DEFACTO-84k   | 0.537   | 0.492    | 0.511  | 0.709       |
+| MVSS_Net | CASIAv2       | 0.759   | 0.802    | 0.244  | 0.404       |
+| MVSS_Net | DEFACTO-84k   | 0.685   | 0.353    | 0.360  | 0.799       |
+| FCN      | CASIAv2       | 0.684   | 0.481    | 0.180  | 0.458       |
+| FCN      | DEFACTO-84k   | 0.561   | 0.492    | 0.511  | 0.709       |
 
 
 
