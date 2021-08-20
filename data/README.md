@@ -13,5 +13,5 @@ Please refer to the [paper](https://arxiv.org/abs/2104.06832) and [code](https:/
 ## CASIAv1plus 
 There seems to be an overlap between authentic images from CASIAv1 and CASIAv2, which is seldom discussed. To avoid data leaking, we collect 782 authentic images from [Corel](https:/sites.google.com/site/dctresearch/Home/content-based-image-retrieval), the source dataset of CASIAv1, and bulid CASIAv1plus togeher with non-overlap images as well as manipulated images.
 
-The performances reported in the paper are still evaluated on origin CAISAIv1. We'll report CASIAv1plus in the future work.    
+For future evaluation, we recommend to use CASIAv1plus instead of CASIAv1.
 
