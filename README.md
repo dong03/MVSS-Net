@@ -5,6 +5,8 @@
 ![Image text](https://raw.githubusercontent.com/dong03/picture/main/framework.jpg)
 
 
+### Something new: MVSS-Net++
+We now have an improved version of MVSS-Net, denoted as MVSS-Net++. Check [here](mvssnetplus.md).
 
 ### Environment
 
