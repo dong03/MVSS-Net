@@ -1,5 +1,5 @@
 # MVSS-Net++
-+ **MVSS-Net++, an improved version of MVSS-Net.**
++ **MVSS-Net++, an improved version of MVSS-Net, More details are reported in the [paper](https://arxiv.org/abs/2112.08935).**
 + **Models listed are trained on CASIAv2.**
 
 #### Performance metric: pixel-f1 (threshold=0.5)
