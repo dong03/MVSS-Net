@@ -3,8 +3,13 @@
 **Code and models for ICCV 2021 paper: *Image Manipulation Detection by Multi-View Multi-Scale Supervision***
 
 ![Image text](https://raw.githubusercontent.com/dong03/picture/main/framework.jpg)
+### Update
+- ***22.02.17***, Pretrained model for [Real-World Image Foregery Localization Challange](https://tianchi.aliyun.com/competition/entrance/531945/introduction)
 
+To Be Done.
+- ***21.12.17***,  Something new: MVSS-Net++
 
+We now have an improved version of MVSS-Net, denoted as MVSS-Net++. Check [here](mvssnetplus.md).
 
 ### Environment
 
