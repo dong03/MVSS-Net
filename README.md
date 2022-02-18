@@ -39,7 +39,7 @@ img_path mask_path label
 ##### Training sets
 
 + [DEFACTO-84k](./data/DEFACTO84k-train.txt)
-+ [CASIAv2](./data/CASIAv2.txt)
++ [CASIAv2](./data/CASIAv2.txt) / [Edge-Mask](./data/edge_mask.zip)
 
 ##### Test sets
 
