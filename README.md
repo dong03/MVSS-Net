@@ -4,9 +4,11 @@
 
 ![Image text](https://raw.githubusercontent.com/dong03/picture/main/framework.jpg)
 ### Update
+- ***22.06.02***, MVSS-Net++ is accepted by ***T-PAMI***, check the [paper](https://ieeexplore.ieee.org/document/9789576/).
+
 - ***22.02.17***, Pretrained model for [Real-World Image Foregery Localization Challange](https://tianchi.aliyun.com/competition/entrance/531945/introduction)
 
-To Be Done.
+
 - ***21.12.17***,  Something new: MVSS-Net++
 
 We now have an improved version of MVSS-Net, denoted as MVSS-Net++. Check [here](mvssnetplus.md).
@@ -103,13 +105,23 @@ bash do_pred.sh $test_collection
 If you find this work useful in your research, please consider citing:
 ```
 @InProceedings{MVSS_2021ICCV,  
-author = {Chen, Xinru and Dong, Chengbo and Ji, Jiaqi and Cao, juan and Li, Xirong},  
-title = {Image Manipulation Detection by Multi-View Multi-Scale Supervision},  
-booktitle = {The IEEE International Conference on Computer Vision (ICCV)},  
-year = {2021}  
+  author = {Chen, Xinru and Dong, Chengbo and Ji, Jiaqi and Cao, juan and Li, Xirong},  
+  title = {Image Manipulation Detection by Multi-View Multi-Scale Supervision},  
+  booktitle = {The IEEE International Conference on Computer Vision (ICCV)},  
+  year = {2021}  
+}
+
+@ARTICLE{MVSS_2022TPAMI,
+  author={Dong, Chengbo and Chen, Xinru and Hu, Ruohan and Cao, Juan and Li, Xirong},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={MVSS-Net: Multi-View Multi-Scale Supervised Networks for Image Manipulation Detection}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1-14},
+  doi={10.1109/TPAMI.2022.3180556}
 }
 ```
-
 ### Acknowledgments
 - [Nvidia-apex](https://github.com/NVIDIA/apex) is adopted for semi-precision training/inferencing.
 - The implement of DA module is based on the  [awesome-semantic-segmentation-pytorch](https://github.com/Tramac/awesome-semantic-segmentation-pytorch).
