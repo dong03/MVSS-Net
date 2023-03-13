@@ -1,6 +1,8 @@
 # MVSS-Net++
 + **MVSS-Net++, an improved version of MVSS-Net, more details are reported in the [paper](https://arxiv.org/abs/2112.08935).**
 + **Models listed are trained on CASIAv2.**
++ [Google Drive](https://drive.google.com/drive/folders/19bR99yN8Qgfrs--eiV7dV5cCgr4ZKcYN?usp=sharing)
++ [百度网盘](https://pan.baidu.com/s/1qbBulvsJ9FReUlng5zDYPg) (提取码：mvss)
 
 #### Performance metric: pixel-f1 (threshold=0.5)
 |   Model  |  CASIAv1plus | Columbia |  COVER | DEFACTO-12k | IMD |
